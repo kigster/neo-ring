@@ -1,0 +1,9 @@
+# vi:syntax=yaml
+version: 2.0.0
+libraries_path: "./libraries"
+lock_format: cmake
+device:
+  board: pro
+  cpu: 16MHzatmega328
+dependencies:
+  - name: "Adafruit NeoPixel"
