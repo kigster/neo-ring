@@ -1,45 +1,43 @@
+// Simple NeoPixel test.  Lights just a few pixels at a time so a
+// 1m strip can safely be powered from Arduino 5V pin.  Arduino
+// may nonetheless hiccup when LEDs are first connected and not
+// accept code.  So upload code first, unplug USB, connect pixels
+// to GND FIRST, then +5V and digital pin 6, then re-plug USB.
+// A working strip will show a few pixels moving down the line,
+// cycling between red, green and blue.  If you get no response,
+// might be connected to wrong end of strip (the end wires, if
+// any, are no indication -- look instead for the data direction
+// arrows printed on the strip).
+
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
 #include <avr/power.h>
 #endif
 
-#include "NeoHelpers.h"
+#include "application/Configuration.h"
+#include "NeoTransitions.h"
 
-#define PIN 4
-#define NUM_LEDS 12
-#define BRIGHTNESS 50
+#define PIN      4
+#define N_LEDS   12
 
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, PIN, NEO_GRBW + NEO_KHZ800);
+NeoPixelManager neoPixelManager(N_LEDS, PIN);
 
 void setup() {
-  // This is for Trinket 5V 16MHz, you can remove these three lines if you are not using a Trinket
-#if defined (__AVR_ATtiny85__)
+  randomSeed(analogRead(0));
+  #if defined (__AVR_ATtiny85__)
   if (F_CPU == 16000000) clock_prescale_set(clock_div_1);
-#endif
-  // End of trinket special code
-  strip.setBrightness(BRIGHTNESS);
-  strip.begin();
-  strip.show(); // Initialize all pixels to 'off'
+  #endif
+  Serial.begin(9600);
+  neoPixelManager.begin();
+  neoPixelManager.effects()->setFlashWhenEffectsChange(true);
+
 }
 
 void loop() {
-  // Some example procedures showing how to display to the pixels:
-  colorWipe(strip.Color(255, 0, 0), 50); // Red
-  colorWipe(strip.Color(0, 255, 0), 50); // Green
-  colorWipe(strip.Color(0, 0, 255), 50); // Blue
-  colorWipe(strip.Color(0, 0, 0, 255), 50); // White
-
-  rainbow(20);
-
-  whiteOverRainbow(20, 75, 5);
-  
-  rainbowCycle(20);
-
-  pulseWhite(5);
-
-  // fullWhite();
-  // delay(2000);
-
-  rainbowFade2White(3, 3, 1);
+  uint32_t now = millis();
+  changeBrightness(neoPixelManager, now);
+  changeEffect(neoPixelManager, now);
+  refreshEffect(neoPixelManager, now);
+  delay(3);
 }

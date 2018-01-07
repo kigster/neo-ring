@@ -16,9 +16,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 include(Arli)
 
-set(HARDWARE_PLATFORM_PATH  /Applications/Arduino.app/Contents/Java/hardware/adafruit)
-set(PLATFORM_PATH  /Applications/Arduino.app/Contents/Java/hardware/adafruit)
-
 # runs bin/setup which installs Arli and other dependencies
 # as well as installs arduino-cmake
 arli_setup(${CMAKE_CURRENT_SOURCE_DIR})

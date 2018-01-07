@@ -15,12 +15,17 @@ arli_bundle_command(${CMAKE_CURRENT_SOURCE_DIR})
 include(Arlifile.cmake)
 
 set(FIRMWARE_NAME ${PROJECT_NAME})
-set(PROJECT_SOURCES NeoRing.cpp NeoHelpers.cpp)
+set(PROJECT_SOURCES NeoRing.cpp
+                    NeoTransitions.cpp
+                    NeoTransitions.h)
+
+include_directories(application)
+add_subdirectory("application")
 
 generate_arduino_firmware(
   ${FIRMWARE_NAME}
   SRCS ${PROJECT_SOURCES}
-  LIBS ${ARLI_CUSTOM_LIBS} ${ARLI_ARDUINO_HARDWARE_LIBS} ${ARLI_ARDUINO_LIBS}
+  LIBS application ${ARLI_CUSTOM_LIBS} ${ARLI_ARDUINO_HARDWARE_LIBS} ${ARLI_ARDUINO_LIBS}
   BOARD ${BOARD_NAME}
   BOARD_CPU ${BOARD_CPU}
   PORT ${BOARD_DEVICE}
