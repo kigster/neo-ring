@@ -7,3 +7,5 @@ device:
   cpu: 16MHzatmega328
 dependencies:
   - name: "Adafruit NeoPixel"
+  - name: "SimpleTimer"
+    url: https://github.com/jfturcot/SimpleTimer.git

@@ -101,7 +101,7 @@ The should be all you need to do add custom logic and to rebuild and upload the 
 
 ## Where to get Support?
 
-Please feel free to file bug reports and submit pull requests on GitHub — [https://github.com/kigster/arli-cmake](https://github.com/kigster/arli-cmake) is the project URL, and this is the [issues](https://github.com/kigster/arli-cmake/issues) URL.
+Please feel free to file bug reports and submit pull requests start GitHub — [https://github.com/kigster/arli-cmake](https://github.com/kigster/arli-cmake) is the project URL, and this is the [issues](https://github.com/kigster/arli-cmake/issues) URL.
 
 ## License
 

@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="NeoRing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Platform\;CMake Files\cmake\Platform\Core\;CMake Files\cmake\Platform\Core\BoardFlags\;CMake Files\cmake\Platform\Core\Sketch\;CMake Files\cmake\Platform\Core\Libraries\;CMake Files\cmake\Platform\Core\Examples\;CMake Files\cmake\Platform\Core\Targets\;CMake Files\cmake\Platform\Initialization\;CMake Files\cmake\Platform\Extras\;CMake Files\cmake\Platform\Generation\;CMake Files\src\;CMake Files\src\application\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimpleTimer">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libSimpleTimer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 SimpleTimer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SimpleTimer/fast">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libSimpleTimer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 SimpleTimer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upload">
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 upload"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Adafruit_NeoPixel">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libAdafruit_NeoPixel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 Adafruit_NeoPixel"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Adafruit_NeoPixel/fast">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libAdafruit_NeoPixel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 Adafruit_NeoPixel/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NeoRing">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/NeoRing.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 NeoRing"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NeoRing/fast">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/NeoRing.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 NeoRing/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro.16MHzatmega328_Adafruit_NeoPixel">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libpro.16MHzatmega328_Adafruit_NeoPixel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 pro.16MHzatmega328_Adafruit_NeoPixel"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro.16MHzatmega328_Adafruit_NeoPixel/fast">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libpro.16MHzatmega328_Adafruit_NeoPixel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 pro.16MHzatmega328_Adafruit_NeoPixel/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NeoRing-upload">
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 NeoRing-upload"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro.16MHzatmega328_SimpleTimer">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libpro.16MHzatmega328_SimpleTimer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 pro.16MHzatmega328_SimpleTimer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro.16MHzatmega328_SimpleTimer/fast">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libpro.16MHzatmega328_SimpleTimer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 pro.16MHzatmega328_SimpleTimer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NeoRing-serial">
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 NeoRing-serial"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NeoRing-size">
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 NeoRing-size"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro.16MHzatmega328_CORE">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libpro.16MHzatmega328_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 pro.16MHzatmega328_CORE"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pro.16MHzatmega328_CORE/fast">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libpro.16MHzatmega328_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 pro.16MHzatmega328_CORE/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="application">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/libapplication.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 application"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="application/fast">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/libapplication.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 application/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_CORE">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/libuno_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 uno_CORE"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_CORE/fast">
+				<Option output="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/libuno_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/utility"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/src"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application"/>
+					<Add directory="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 uno_CORE/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Client.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial_private.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Printable.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Server.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBAPI.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBDesc.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Udp.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WCharacter.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/binary.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_private.h">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.S">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c">
+			<Option target="pro.16MHzatmega328_CORE"/>
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/NeoRing.cpp">
+			<Option target="NeoRing"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/BrightnessController.cpp">
+			<Option target="application"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/BrightnessController.h">
+			<Option target="application"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/EffectsController.cpp">
+			<Option target="application"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/EffectsController.h">
+			<Option target="application"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/PixelEffect.h">
+			<Option target="application"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/ValueWithinRange.h">
+			<Option target="application"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/Adafruit_NeoPixel.cpp">
+			<Option target="Adafruit_NeoPixel"/>
+			<Option target="pro.16MHzatmega328_Adafruit_NeoPixel"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/Adafruit_NeoPixel.h">
+			<Option target="pro.16MHzatmega328_Adafruit_NeoPixel"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/Adafruit_NeoPixel/esp8266.c">
+			<Option target="pro.16MHzatmega328_Adafruit_NeoPixel"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/SimpleTimer.cpp">
+			<Option target="SimpleTimer"/>
+			<Option target="pro.16MHzatmega328_SimpleTimer"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/libraries/SimpleTimer/SimpleTimer.h">
+			<Option target="pro.16MHzatmega328_SimpleTimer"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/ArduinoToolchain.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Arli.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Arduino.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/BoardPropertiesReader.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/LibraryFinder.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/SourceFinder.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/VariableValidator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/BoardFlags/CompilerFlagsSetter.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\BoardFlags\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/BoardFlags/FlagsSetter.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\BoardFlags\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/BoardFlags/LinkerFlagsSetter.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\BoardFlags\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Sketch/ArduinoSketchFactory.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Sketch\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Sketch/ArduinoSketchToCppConverter.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Sketch\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Libraries/ArduinoLibraryFactory.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Libraries\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Libraries/BlacklistedLibrariesRemover.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Libraries\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Libraries/CoreLibraryFactory.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Libraries\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Examples/ArduinoExampleFactory.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Examples\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Examples/ArduinoLibraryExampleFactory.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Examples\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Targets/ArduinoBootloaderArgumentsBuilder.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Targets/ArduinoBootloaderBurnTargetCreator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Targets/ArduinoBootloaderUploadTargetCreator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Targets/ArduinoFirmwareTargetCreator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Targets/ArduinoProgrammerArgumentsBuilder.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Targets/ArduinoProgrammerBurnTargetCreator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Targets/ArduinoSerialTargetCreator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Core/Targets/ArduinoUploadTargetCreator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Core\Targets\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/DefineAdvancedVariables.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/DetectVersion.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/FindPrograms.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/Initializer.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/LoadArduinoPlatformSettings.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/RegisterHardwarePlatform.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/RegisterSpecificHardwarePlatform.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/SetDefaults.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/SetupArduinoSettings.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/SetupCompilerSettings.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/SetupExampleCategories.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/SetupFirmwareSizeScript.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/SetupLibraryBlacklist.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Initialization/TestSetup.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Initialization\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Extras/DebugOptions.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Extras/GeneratorSettingsLoader.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Extras/Macros.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Extras/Printer.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Extras\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Generation/ArduinoExampleGenerator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Generation/ArduinoFirmwareGenerator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Generation/ArduinoLibraryExampleGenerator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Generation/ArduinoLibraryGenerator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Generation/AvrFirmwareGenerator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/cmake/Platform/Generation/AvrLibraryGenerator.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\Generation\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/Arlifile.cmake">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/kig/Dropbox/Arduino/projects/clion/NeoRing/src/application/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\application\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

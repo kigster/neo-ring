@@ -1,7 +1,10 @@
-.idea
-9### CMake template
+**/.DS_Store
+*.cpb
+.idea/
+### CMake template
 example/libraries
 example/build
+build/
 deps/
 cmake/ArduinoToolchain.cmake
 cmake/Platform

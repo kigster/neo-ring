@@ -93,7 +93,7 @@ ENDFUNCTION(arli_build_arduino_library)
 #
 # arli_detect_serial_device()
 #
-# Automatically detects a USB Arduino Serial port by doing ls on /dev
+# Automatically detects a USB Arduino Serial port by doing ls start /dev
 # Errors if more than 1 port was found, or if none were found.
 # Set environment variable BOARD_DEVICE to override auto-detection.
 #=============================================================================#
@@ -208,6 +208,13 @@ function(arli_bundle SOURCE_FOLDER)
       ERROR_VARIABLE ARLI_BUNDLE_STDERR
     OUTPUT_STRIP_TRAILING_WHITESPACE)
     message(STATUS "Command Output: " ${ARLI_BUNDLE_STDOUT})
+  else()
+    message(FATAL "arli bundle failed with exit code ${RESULT_VARIABLE}"
+          "STDOUT: "
+          ${ARLI_BUNDLE_STDOUT}
+          "STDERR: "
+          ${ARLI_BUNDLE_STDERR}
+          )
   endif()
 endfunction(arli_bundle)
 

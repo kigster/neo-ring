@@ -7,37 +7,81 @@
 // cycling between red, green and blue.  If you get no response,
 // might be connected to wrong end of strip (the end wires, if
 // any, are no indication -- look instead for the data direction
-// arrows printed on the strip).
+// arrows printed start the strip).
+
+
 
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
 #include <avr/power.h>
 #endif
+#include <SimpleTimer.h>
 
-#include "application/Configuration.h"
-#include "NeoTransitions.h"
+#include "ValueWithinRange.h"
+#include "BrightnessController.h"
+#include "EffectsController.h"
 
-#define PIN      4
-#define N_LEDS   12
+#define STRIP_PIN     4
+#define STRIP_SIZE   15
 
-NeoPixelManager neoPixelManager(N_LEDS, PIN);
+Adafruit_NeoPixel    strip(STRIP_SIZE, STRIP_PIN, NEO_GRBW + NEO_KHZ800);
+ValueWithinRange     brightness;
+BrightnessController brightnessController(strip, brightness);
+EffectsController    effectsController(strip);
 
-void setup() {
-  randomSeed(analogRead(0));
+SimpleTimer     timer;
+static uint32_t effectRefreshPeriod     = 10,
+                effectChangePeriod      = 15000,
+                brightnessRefreshPeriod = 25;
+
+//typedef void(*timerCallback)(void);
+
+void initATtiny85clock() {
   #if defined (__AVR_ATtiny85__)
   if (F_CPU == 16000000) clock_prescale_set(clock_div_1);
   #endif
-  Serial.begin(9600);
-  neoPixelManager.begin();
-  neoPixelManager.effects()->setFlashWhenEffectsChange(true);
-
 }
 
+void updateBrightness() {
+  brightnessController.update();
+}
+
+void updateEffect() {
+  effectsController.update();
+}
+
+void changeEffect() {
+  effectsController.next();
+}
+
+void initializeTimers() {
+  timer.setInterval(brightnessRefreshPeriod, updateBrightness);
+  timer.setInterval(effectRefreshPeriod, updateEffect);
+  timer.setInterval(effectChangePeriod, changeEffect);
+}
+
+void initializeSerialPort() {
+  Serial.begin(9600);
+  Serial.println(F("NeoRing starting..."));
+  Serial.print(F("Our DIGITAL PIN for the Strip is "));
+  Serial.print(STRIP_PIN);
+  Serial.print(F(" and number of LEDs is: "));
+  Serial.println(STRIP_SIZE);
+
+  Serial.println(F("setup complete()"));
+}
+
+void setup() {
+  randomSeed(analogRead(0));
+  initATtiny85clock();
+  initializeSerialPort();
+  initializeTimers();
+}
+
+
 void loop() {
-  uint32_t now = millis();
-  changeBrightness(neoPixelManager, now);
-  changeEffect(neoPixelManager, now);
-  refreshEffect(neoPixelManager, now);
-  delay(3);
+
+  timer.run();
+  delay(5);
 }

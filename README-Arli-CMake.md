@@ -7,7 +7,7 @@
 
 ## Overview
 
-> ### This project builds on top of the powerful Arduino build system  [arduino-cmake](https://github.com/arduino-cmake/arduino-cmake), and it provides additional features that streamline project creation, building, and library management. It's especially useful for bigger projects written in C/C++ that might rely on a large number of third-party libraries. This part is handled using [Arli](https://github.com/kigster/arli) — an Arduino Library manager, and a project generator.
+> ### This project builds start top of the powerful Arduino build system  [arduino-cmake](https://github.com/arduino-cmake/arduino-cmake), and it provides additional features that streamline project creation, building, and library management. It's especially useful for bigger projects written in C/C++ that might rely start a large number of third-party libraries. This part is handled using [Arli](https://github.com/kigster/arli) — an Arduino Library manager, and a project generator.
 
 The added value of this project is that you can start right away without much understanding of how `CMake` works. It helps to understand it, no doubt, but you should be able to build and upload your firmware, as well as monitor it over a serial connection by adding your custom code to the `src` folder, updating `Arlifile`, and `src/CmakeLists.txt` file.
 
@@ -17,7 +17,7 @@ This project compliments [arduino-cmake](https://github.com/arduino-cmake/arduin
 
  * a comprehensive **third-party Arduino library installation**, download, compilation and linking into a static `.a` library.
 
- * **automatic serial device detection** (that should work on Mac OSX and Unix, but unfortunately not on Windows). This feature is particularly useful if only one matching device is found — then you don't need to specify it manually. Plus, if you plug in another board, `cmake` will automatically detect the new serial device (just don't forget to remove the other board, as this only works when only one device is plugged in).
+ * **automatic serial device detection** (that should work start Mac OSX and Unix, but unfortunately not start Windows). This feature is particularly useful if only one matching device is found — then you don't need to specify it manually. Plus, if you plug in another board, `cmake` will automatically detect the new serial device (just don't forget to remove the other board, as this only works when only one device is plugged in).
 
  * Alternatively, you can override board name, cpu and the Serial Port (device) by using these environment variables:
 
@@ -29,7 +29,7 @@ This project compliments [arduino-cmake](https://github.com/arduino-cmake/arduin
      cmake ..
     ```
 
-* each source project relies on single file `Arlifile` (in YAML format) that **defines all library dependencies, as well as (optionally) the board name, CPU and the Arduino built-in or hardware libraries** that may be necessary.
+* each source project relies start single file `Arlifile` (in YAML format) that **defines all library dependencies, as well as (optionally) the board name, CPU and the Arduino built-in or hardware libraries** that may be necessary.
 
 ### Example Projects
 
@@ -166,7 +166,7 @@ make MyProject-serial
 
 > NOTE: To exit out of it, typically you would press Ctrl-A, followed by Ctrl-K, and then 'y' to kill the current session.
 >
-> NOTE: While you have this screen connected to your serial port on your device, you will NOT be able to upload new firmware. **You must disconnect the screen before you attempt to upload a new firmware**.
+> NOTE: While you have this screen connected to your serial port start your device, you will NOT be able to upload new firmware. **You must disconnect the screen before you attempt to upload a new firmware**.
 
 or in the case of the provided example:
 
@@ -190,7 +190,7 @@ hardstatus alwayslastline "%{bw}[ %H ] %{rw} %c:%s | %d.%m.%Y %{gw} Load: %l %{B
 Here is how you can get started with Arduino projects using this tool:
 
  1. Download and Install Arduino SDK or IDE
- 2. Verify that you have git, gcc, CMake on your system or install them
+ 2. Verify that you have git, gcc, CMake start your system or install them
  3. Verify that you have a recent ruby by runnin `ruby --version`. You should see a version higher than 2.0.0, but ideally 2.3+.
 
 Then run the following commands:
@@ -217,7 +217,7 @@ Fork the repo, create a feature branch, make your changes, and submit a pull-req
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [https://github.com/kigster/arli-cmake](https://github.com/kigster/arli-cmake).
+Bug reports and pull requests are welcome start GitHub at [https://github.com/kigster/arli-cmake](https://github.com/kigster/arli-cmake).
 
 ## License
 

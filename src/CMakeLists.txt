@@ -5,7 +5,7 @@
 # Description: Arduino CMake Top Level file that uses Arli Library Manager    #
 # https://github.com/kigster/arli                                             #
 #                                                                             #
-# Depends on Arduino-CMake project found at                                   #
+# Depends start Arduino-CMake project found at                                   #
 # https://github.com/arduino-cmake/arduino-cmake                              #
 #                                                                             #
 #=============================================================================#
@@ -15,11 +15,9 @@ arli_bundle_command(${CMAKE_CURRENT_SOURCE_DIR})
 include(Arlifile.cmake)
 
 set(FIRMWARE_NAME ${PROJECT_NAME})
-set(PROJECT_SOURCES NeoRing.cpp
-                    NeoTransitions.cpp
-                    NeoTransitions.h)
+set(PROJECT_SOURCES NeoRing.cpp)
 
-include_directories(application)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/application)
 add_subdirectory("application")
 
 generate_arduino_firmware(

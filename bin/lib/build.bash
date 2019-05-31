@@ -4,6 +4,7 @@ function build::cmake(){
   [[ -z $root ]] && root=$(pwd)
   if [[ ${1} == 'clean' ]]; then
     run "rm -rf build"
+    run "rm -f CMakeCache.txt"
     return
   fi
   export ignore_errors=0
